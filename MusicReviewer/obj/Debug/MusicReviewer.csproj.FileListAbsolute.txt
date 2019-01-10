@@ -1,0 +1,16 @@
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.csproj.ResolveComReference.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\AdvanceSearchWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\App.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Edit_Window.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ElementListWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MainWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\StatPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagginWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ReviewPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\SortPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.lref
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.exe
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.pdb

@@ -1,0 +1,6 @@
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\DatabaseManagement.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.exe
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.exe.config
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\System.Data.SQLite.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\taglib-sharp.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\\Tags.ini

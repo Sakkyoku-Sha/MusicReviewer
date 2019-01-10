@@ -1,0 +1,72 @@
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csprojResolveAssemblyReference.cache
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MainWindow.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\App.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.cache
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.lref
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MainWindow.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.g.resources
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.Properties.Resources.resources
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.GenerateResource.cache
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.CoreCompileInputs.cache
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.CopyComplete
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.exe
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.pdb
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ReviewPage.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\SearchPage.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ReviewPage.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\SearchPage.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\StatPage.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagPage.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\StatPage.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagPage.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.exe.config
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.exe
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.pdb
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagginWindow.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagginWindow.baml
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Edit_Window.g.cs
+C:\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Edit_Window.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csprojAssemblyReference.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Edit_Window.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MainWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\StatPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagginWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ReviewPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\App.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer_MarkupCompile.lref
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Edit_Window.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MainWindow.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\StatPage.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagginWindow.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\TagPage.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ReviewPage.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.g.resources
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.Properties.Resources.resources
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.GenerateResource.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.CoreCompileInputs.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.CopyComplete
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.exe.config
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.exe
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.pdb
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.exe
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.pdb
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.exe.manifest
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewer.application
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.exe.manifest
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer.application
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\SortPage.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\SortPage.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\AdvanceSearchWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ElementListWindow.g.cs
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\AdvanceSearchWindow.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\ElementListWindow.baml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewer\obj\Debug\MusicReviewerApp.csproj.ResolveComReference.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.exe.config
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.exe.manifest
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.application
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.exe
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\MusicReviewer.pdb
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\Output\Tags.ini

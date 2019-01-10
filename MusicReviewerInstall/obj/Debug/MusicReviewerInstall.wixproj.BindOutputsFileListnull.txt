@@ -1,0 +1,2 @@
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewerInstall\bin\Debug\MusicReviewerInstall.msi
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewerInstall\bin\Debug\MusicReviewerInstall.wixpdb

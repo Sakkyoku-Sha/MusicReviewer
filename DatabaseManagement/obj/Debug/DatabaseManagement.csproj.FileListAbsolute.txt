@@ -1,0 +1,10 @@
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\DatabaseManagement.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\DatabaseManagement.pdb
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\System.Data.SQLite.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\System.Data.SQLite.xml
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\obj\Debug\DatabaseManagement.csproj.CoreCompileInputs.cache
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\obj\Debug\DatabaseManagement.csproj.CopyComplete
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\obj\Debug\DatabaseManagement.dll
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\obj\Debug\DatabaseManagement.pdb
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\bin\Debug\Tags.ini
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\DatabaseManagement\obj\Debug\DatabaseManagement.csprojAssemblyReference.cache

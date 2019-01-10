@@ -1,0 +1,6 @@
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewerInstall\bin\Debug\MusicReviewerInstall.msi
+D:\Programming Project\MusicReviewer\MusicReviewer\MusicReviewer\MusicReviewerInstall\bin\Debug\MusicReviewerInstall.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\MusicReviewerInstall.wixproj.BindContentsFileListnull.txt
+obj\Debug\MusicReviewerInstall.wixproj.BindOutputsFileListnull.txt
+obj\Debug\MusicReviewerInstall.wixproj.BindBuiltOutputsFileListnull.txt

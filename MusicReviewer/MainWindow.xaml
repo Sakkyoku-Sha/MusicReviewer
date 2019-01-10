@@ -1,0 +1,32 @@
+﻿<Window x:Name="MainWindow1" x:Class="MusicReviewerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicReviewerApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900" 
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="623*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Width="90" HorizontalAlignment ="Left" VerticalAlignment="Center" Margin="0,4,0,5">
+            <Button Content="Review" MinHeight="90" Click="ReviewClick" Height="45"/>
+            <Button Content="Sort" MinHeight="90" Click="SortButtonClk" Height="45"/>
+            <Button Content="Tags" MinHeight="90" Click="TagBtnClk" Height="45"/>
+            <Button Content="Stats" MinHeight="90" Click="StatBtnClk" Height="45"/>
+            <Button Content="Quit" MinHeight="90" Click="ExitBtnClk" Height="12" HorizontalAlignment="Right" Width="92"/>
+
+        </StackPanel>
+        <Frame x:Name="Main" Margin="90,0,0,0" Navigated="MainWindow_Navigated" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
+
+
+    </Grid>
+</Window>
+    
+    
+    
+
+       

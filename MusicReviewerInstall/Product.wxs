@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define MusicReviewerApp_TargetDir=$(var.MusicReviewerApp.TargetDir)?><?define DatabaseManagement_TargetDir=$(var.DatabaseManagement.TargetDir)?>
+	<Product Id="*" Name="MusicReviewer" Language="1033" Version="1.0.0.0" Manufacturer="Ryan Anderson" UpgradeCode="adacdf1a-d11d-41fa-b5d8-80fe877449a4">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <Property Id="WIXUI_INSTALLDIR" Value="TESTFILEPRODUCTDIR"/>
+    <UIRef Id="WixUI_InstallDir"/>
+       
+		<MajorUpgrade DowngradeErrorMessage="A newer version of is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+   
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\License.rtf"/>
+
+    <Feature Id="ProductFeature" Title="MusicReviewer" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>   
+    <Directory Id="TARGETDIR" Name="SourceDir">   
+			<Directory Id="ProgramFilesFolder">
+        <Directory Id ="TESTFILEPRODUCTDIR" Name="Source">
+          <Directory Id="INSTALLFOLDER" Name="MusicReviewer" />
+        </Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<Component Id="MusicReviewer.exe" Guid="6895acbb-49db-4de1-90fd-d4523931c47b">
+        <File Id="MusicReviewer.exe" Name="MusicReviewer.exe" Source="$(var.MusicReviewerApp_TargetDir)MusicReviewer.exe">         
+        </File>
+			</Component>
+			<Component Id="MusicReviewer.exe.config" Guid="2b880cbf-8b04-4270-bded-78424e004212">
+			  <File Id="MusicReviewer.exe.config" Name="MusicReviewer.exe.config" Source="$(var.MusicReviewerApp_TargetDir)MusicReviewer.exe.config" />
+			</Component>
+			<Component Id="DatabaseManagement.dll" Guid="0936139f-9880-4bf6-83e6-086629e3fe04">
+			  <File Id="DatabaseManagement.dll" Name="DatabaseManagement.dll" Source="$(var.DatabaseManagement_TargetDir)DatabaseManagement.dll" />
+			</Component>
+			<Component Id="taglib_sharp.dll" Guid="1b309fde-0f9a-4c7b-b67a-cc81a22f98db">
+			  <File Id="taglib_sharp.dll" Name="taglib-sharp.dll" Source="$(var.MusicReviewerApp_TargetDir)taglib-sharp.dll" />
+			</Component>
+			<Component Id="System.Data.SQLite.dll" Guid="1fb16cfd-261c-4e53-82d3-b55df2ae161c">
+			  <File Id="System.Data.SQLite.dll" Name="System.Data.SQLite.dll" Source="$(var.MusicReviewerApp_TargetDir)System.Data.SQLite.dll" />
+			</Component>
+      <Component Id ="SQLite.Interop.dll" Guid="DB03CA55-E43C-4E48-B13E-69C62B6A2C1A">
+        <File Id ="SQLite.Interop.dll" Name="SQLite.Interop.dll" Source="$(var.MusicReviewerApp_TargetDir)SQLite.Interop.dll"/>        
+      </Component>
+      <Component Id="Tags.ini" Guid="5A2BAE6F-D77E-4AB5-B055-EF456AC3030F">
+        <File Id="Tags.ini" Name="Tags.ini" Source="$(var.MusicReviewerApp_TargetDir)\Tags.ini"/>
+      </Component>
+      
+		</ComponentGroup>
+	</Fragment>
+</Wix>

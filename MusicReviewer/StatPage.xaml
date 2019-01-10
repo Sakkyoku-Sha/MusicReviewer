@@ -1,0 +1,122 @@
+﻿<Page x:Class="MusicReviewerApp.StatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MusicReviewerApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StatPage">
+
+    <Grid>
+        <Button Name="BackUp" Content="Back Up Data" HorizontalAlignment="Left" Margin="690,409,0,0" VerticalAlignment="Top" Width="100" Height="31" Click="BackUp_Click"/>
+        <Button Name="Calculate" Content="Calculate Stats" HorizontalAlignment="Left" Margin="10,409,0,0" VerticalAlignment="Top" Width="132" Height="31" Click="Calculate_Click"/>
+        <Label Name="AverageRating" Content="Average Rating: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="208" Height="60"/>
+        <Label Name="HighestArtist" Content="Highest Rated Artist: " HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="208" Height="60"/>
+        <Label Name="HighestAlbum" Content="Highest Rated Album: " HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="208" Height="60"/>
+        <Label Name="HighestYear" Content="Highest Rated Year:&#x9;" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.145,-1.038" Width="208" Height="60"/>
+
+
+
+        <ListView Name="InstrumentView" HorizontalAlignment="Left" Height="121" Margin="500,10,0,0" 
+                  VerticalAlignment="Top" Width="272" AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Instruments}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Instrument" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+
+
+        <ListView Name="GenreView" HorizontalAlignment="Left" Height="121" Margin="500,136,0,0" 
+                  VerticalAlignment="Top" Width="272" AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Genres}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+
+        <ListView Name="LanguageView" HorizontalAlignment="Left" Height="121" Margin="500,262,0,0" 
+                  VerticalAlignment="Top" Width="272" AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Languages}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Language" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+
+        <ListView Name="ArtistView" HorizontalAlignment="Left" Height="121" Margin="223,136,0,0" 
+                  VerticalAlignment="Top" Width="272" AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Artists}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Artist" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+
+        <ListView Name="AlbumView" HorizontalAlignment="Left" Height="121" Margin="223,262,0,0" 
+                  VerticalAlignment="Top" Width="272" AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Albums}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Album" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+
+        <ListView Name="YearView" HorizontalAlignment="Left" Height="121" Margin="223,10,0,0" 
+                  VerticalAlignment="Top" Width="272"  AutomationProperties.IsColumnHeader="True"
+                  ItemsSource="{Binding Years}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Type}" Width="178"/>
+                    <GridViewColumn Header="Average Rating" DisplayMemberBinding="{Binding Rating}" Width="90"/>
+
+
+                </GridView>
+            </ListView.View>
+
+
+        </ListView>
+        <Button Content="Import Database" HorizontalAlignment="Left" Margin="573,409,0,0" VerticalAlignment="Top" Width="112" Height="31" Click="Import_DataBase_Click"/>
+    </Grid>
+
+
+
+</Page>
