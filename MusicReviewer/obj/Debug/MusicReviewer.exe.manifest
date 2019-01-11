@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MusicReviewer.exe" size="68064">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MusicReviewer.exe" size="69600">
       <assemblyIdentity name="MusicReviewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>L06A6aJ6OLSbScYZBx996ZQm5rRvUt58bs6oTS7kFeU=</dsig:DigestValue>
+        <dsig:DigestValue>+CYu0FIvzZYenaLh1GZYe4VJDBcXMliOYZjyTC3tDDs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

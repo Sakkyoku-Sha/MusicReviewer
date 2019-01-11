@@ -37,6 +37,9 @@ namespace MusicReviewerApp
 
         //Always manages all Tags
         public List<TagObject> Tags;
+        public List<TagObject> LanguageTags;
+        public List<TagObject> GenreTags;
+        public List<TagObject> InstrumentTags;
 
         //Maintain pages between clicks so "new" pages are always being created.
         //Windows are generated when needed.
@@ -53,9 +56,34 @@ namespace MusicReviewerApp
             TagPage = null;
 
             //Generate all of the tags upon construction.
-            DBManager = new DatabaseManager();                  
+            DBManager = new DatabaseManager();
+
+            InstrumentTags = new List<TagObject>();
+            LanguageTags = new List<TagObject>();
+            GenreTags = new List<TagObject>();
 
             Tags = DBManager.GetAllTags();
+
+            foreach(TagObject Tag in Tags)
+            {
+                switch (Tag.Type)
+                {
+                    case TagType.Genre:
+                        GenreTags.Add(Tag);
+                        break;
+                    case TagType.Instrument:
+                        InstrumentTags.Add(Tag);
+                        break;
+                    case TagType.Language:
+                        LanguageTags.Add(Tag);
+                        break;
+                }
+            }
+
+            //Sort in Alphabetical Order: 
+            GenreTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
+            LanguageTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
+            InstrumentTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
         }      
         public bool IsATag(string givenTag)
         {
@@ -129,11 +157,46 @@ namespace MusicReviewerApp
         {
             this.DBManager.AddTag(Tag);
             this.Tags.Add(Tag);
+                      
+            switch (Tag.Type)
+            {
+                case TagType.Genre:
+                    GenreTags.Add(Tag);
+                    GenreTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
+                    break;
+                case TagType.Instrument:
+                    InstrumentTags.Add(Tag);
+                    InstrumentTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
+                    break;
+                case TagType.Language:
+                    LanguageTags.Add(Tag);
+                    LanguageTags.Sort((r1, r2) => r1.Name.CompareTo(r2.Name));
+                    break;
+            }
         }
         public void RemoveTag(TagObject Tag)
         {
+            //If the tag is in the current review (odd case, but kind of needs to be done)'
+            if (ReviewPage.currentReview.getTags().Contains(Tag))
+            {
+                ReviewPage.currentReview.EmptyTags();
+                ReviewPage.ClearReviewPage();
+            }
+
             this.DBManager.deleteTag(Tag);
             this.Tags.Remove(Tag);
+            switch (Tag.Type)
+            {
+                case TagType.Genre:
+                    GenreTags.Remove(Tag);
+                    break;
+                case TagType.Instrument:
+                    InstrumentTags.Remove(Tag);
+                    break;
+                case TagType.Language:
+                    LanguageTags.Remove(Tag);                   
+                    break;
+            }
         }                  
     }
 }
