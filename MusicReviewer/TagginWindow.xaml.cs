@@ -1,18 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using DatabaseManagement;
-using static MusicReviewerApp.LocalDataManager;
 
 namespace MusicReviewerApp
 {
@@ -20,7 +8,7 @@ namespace MusicReviewerApp
     {
         private LocalDataManager LocalData;   
         public List<TagObject> SelectedTags;
-        private List<TagBox> TagBoxes;
+
         private ReviewPage Parent_Page;
         private AdvanceSearchWindow AdvanceSearchWindow;
         private bool Including;
@@ -36,7 +24,8 @@ namespace MusicReviewerApp
             this.LocalData = LocalData;
            
             AdvanceSearchWindow = null;
-            CreateTagBoxes(LocalData.Tags);       
+
+            CreateTagBoxes(givenReview.getTags());          
         }
         public TagginWindow(LocalDataManager LocalData, AdvanceSearchWindow AdvanceSearchWindow, List<TagObject> GivenTags, bool Including)
         {
@@ -50,38 +39,38 @@ namespace MusicReviewerApp
             else { SelectedTags = GivenTags; }
             
             Parent_Page = null;
-            CreateTagBoxes(GivenTags);
+            CreateTagBoxes(SelectedTags);
         }
         private void CreateTagBoxes(List<TagObject> AlreadySelectedTags)
-        {          
-            this.TagBoxes = new List<TagBox>();
+        {         
             //Create and Add handlers for the Tag Buttons handlers to the buttons.
-            foreach (TagObject Tag in LocalData.Tags)
+            //This is done because with redundancy because I want to make sure each of the 
+            //Lists are sorted alphabetically within their category.
+            foreach (TagObject Tag in LocalData.GenreTags)
             {
-                TagBox newBox = new TagBox(Tag);
-                //Add TagWindow Specific handelers 
-                newBox.Click += new RoutedEventHandler(CheckBox_Click);
-                TagBoxes.Add(newBox);
+                TagBox box = new TagBox(Tag);
+                box.Click += new RoutedEventHandler(CheckBox_Click);
+                if (AlreadySelectedTags.Contains(Tag)) { box.IsChecked = true; }
 
-                if (SelectedTags.Contains(newBox.TagData)) { newBox.IsChecked = true; }
+                GenresTagList.Items.Add(box);
+            }
+            foreach (TagObject Tag in LocalData.InstrumentTags)
+            {
+                TagBox box = new TagBox(Tag);
+                box.Click += new RoutedEventHandler(CheckBox_Click);
+                if (AlreadySelectedTags.Contains(Tag)) { box.IsChecked = true; }
 
-                //Make the buttons visible
-                switch (newBox.TagData.Type)
-                {
-                    case TagType.Genre:
-                        GenresTagList.Items.Add(newBox);
-                        break;
-                    case TagType.Instrument:
-                        InstrumentsTagList.Items.Add(newBox);
-                        break;
-                    case TagType.Language:
-                        LanguagesTagList.Items.Add(newBox);
-                        break;
-                }
+                InstrumentsTagList.Items.Add(box);
+            }
+            foreach (TagObject Tag in LocalData.LanguageTags)
+            {
+                TagBox box = new TagBox(Tag);
+                box.Click += new RoutedEventHandler(CheckBox_Click);
+                if (AlreadySelectedTags.Contains(Tag)) { box.IsChecked = true; }
+
+                LanguagesTagList.Items.Add(box);
             }
         }
-
-
         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
             TagBox clickedBox = ((TagBox)sender);
